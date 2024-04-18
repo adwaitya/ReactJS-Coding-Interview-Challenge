@@ -45,7 +45,7 @@ const Task2 = () => {
             </tr>
           </thead>
           <tbody>
-            {filteredUsers.map((user) => (
+            {users.map((user) => (
               <tr key={user.id}>
                 <td>{user.name}</td>
                 <td>{user.email}</td>
