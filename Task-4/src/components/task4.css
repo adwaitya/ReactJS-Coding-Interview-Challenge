@@ -1,0 +1,32 @@
+.search-container {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .search-container input {
+    width: 90%;
+    padding: .5rem;
+  }
+  
+  .table-container .table {
+    margin: auto;
+    border: 1px solid #aaa;
+    border-collapse: collapse;
+  }
+  
+  .table thead tr {
+    border: 1px solid #aaa;
+    background-color: black;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .table tbody tr {
+    border: 1px solid #ddd;
+    background: gray;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  
