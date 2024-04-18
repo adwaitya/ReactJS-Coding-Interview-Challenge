@@ -20,12 +20,7 @@ const Task1 = () => {
 
   return (
     <div>
-      <h5>Task-1: Fetch the users list and display</h5>
-      <p>
-        Write code to fetch the user's details from the open source rest
-        endpoint and display the user's details in the table with proper style
-        and in the center.
-      </p>
+      <h2>User Details</h2>
       <table className="table">
         <thead>
           <tr>
