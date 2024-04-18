@@ -2,9 +2,8 @@ import React, { useEffect, useState } from "react";
 import "./task4.css";
 
 /**
- *Task-3: Optimized Search Using debounce and cancelable technique
-
- *  Improve the search functionality using debounce and cancelable request and display filtered user details only.
+Task-4: Implement Sort By Username functionality
+Write code to fetch the user’s details and display the usernames. There should be two buttons to sort usernames in ascending order and descending order.
  */
 const Task4 = () => {
   const [users, setUsers] = useState([]);
